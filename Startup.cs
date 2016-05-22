@@ -83,6 +83,9 @@ namespace dotnet_mono_rc2_aspnet_example
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            Arebis.Logging.GrayLog.GrayLogUdpClient client = new Arebis.Logging.GrayLog.GrayLogUdpClient("test", "mud-docker02");
+            client.Send("Short message", "Full message", new { stuff = "good" });
         }
     }
 }
