@@ -221,3 +221,5 @@ bower_components/
 node_modules/
 wwwroot/_references.js
 project.lock.json
+*.min.css
+*.min.js
