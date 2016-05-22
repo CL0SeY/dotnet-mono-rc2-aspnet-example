@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using dotnet_mono_example.Data;
-using dotnet_mono_example.Models;
-using dotnet_mono_example.Services;
+using dotnet_mono_rc2_aspnet_example.Data;
+using dotnet_mono_rc2_aspnet_example.Models;
+using dotnet_mono_rc2_aspnet_example.Services;
 
-namespace dotnet_mono_example
+namespace dotnet_mono_rc2_aspnet_example
 {
     public class Startup
     {

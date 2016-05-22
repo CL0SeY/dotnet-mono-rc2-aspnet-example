@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using dotnet_mono_example.Models;
-using dotnet_mono_example.Models.ManageViewModels;
-using dotnet_mono_example.Services;
+using dotnet_mono_rc2_aspnet_example.Models;
+using dotnet_mono_rc2_aspnet_example.Models.ManageViewModels;
+using dotnet_mono_rc2_aspnet_example.Services;
 
-namespace dotnet_mono_example.Controllers
+namespace dotnet_mono_rc2_aspnet_example.Controllers
 {
     [Authorize]
     public class ManageController : Controller

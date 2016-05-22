@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace dotnet_mono_example
+namespace dotnet_mono_rc2_aspnet_example
 {
     public class Program
     {
