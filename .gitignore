@@ -219,3 +219,4 @@ pip-log.txt
 bower_components/
 .vs/
 node_modules/
+wwwroot/_references.js
